@@ -27,8 +27,8 @@ services:
     container_name: laravel-basic-mysql-db
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: sampleDB
-      MYSQL_USER: sampleUser
-      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: ducthanh
+      MYSQL_USER: thanh
+      MYSQL_PASSWORD: thanh
     ports:
       - 3306:3306
